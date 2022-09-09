@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studios</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="./img/logo2.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="./img/logo.jpg" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="./page/contacto.html">CONTACTOS</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Diseñamos Interfaces Minimalistas Que Encantan y Captivan</h1>
+            <p>
+                Trabajamos con las mejores herramientas del mercado para garantizar los deseos de los clientes. Contamos con un gran equipo de trabajo perfectamente capacitados para cualquier tipo de retos que se nos interponga.
+            </p>
+            <div>
+                <a href="./page/contacto.html">
+                <button class="btn-principal" type ="submit">COMUNICATE</button>
+                </a>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="img/caratula2.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Creamos Experiencias Maravillosas Para Los Usuarios</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a molestiae amet eaque consequatur veritatis excepturi at.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Diseño UX/UI</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Desarrollo WEB</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Comercio Digital</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <section class="footer">
+    
+            <div class="margin">
+            
+              <div class="menu-footer">
+              
+              <a href="./page/contacto.html">Contacto</a>
+              <a href="https://www.instagram.com/apolo.coding/">Instagram</a>
+              <a href="#">Facebook</a>
+              
+              </div>
+              
+                <div class="copyright">© 2022. Todos los derechos reservados</div>        
+      
+            </div>
+          </section>      
+    </footer>
+    
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
